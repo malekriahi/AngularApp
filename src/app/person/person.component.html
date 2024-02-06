@@ -1,1 +1,31 @@
-<p>person works!</p>
+<p>First works!</p>
+
+
+
+
+
+<h1> My name is {{name}} and my age is {{age}}</h1>
+
+
+
+<img [src]="imgURL" [alt]="alternative">
+
+
+
+
+<button (click)="change() "> Click me</button>
+
+<input type="text" [(ngModel)]="text">
+
+
+<p>{{text}}</p>
+
+<div>
+    <h1> My name is {{user.nom}}</h1>
+    <p>My age is {{user.Age}}</p>
+    <img [src]="user.img" alt="Hunter x hunter">
+</div>
+
+<input type="text" [(ngModel)]="myname">
+
+<button (click)="chng()"> Click me to change my name </button>
